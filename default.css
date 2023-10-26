@@ -71,7 +71,7 @@
 	
 
 
-	
+
 	.image img
 	{
 		display: block;
@@ -432,6 +432,8 @@
 		padding-bottom: 2em;
 		border-bottom: 1px solid rgba(0,0,0,.1);
 	}
+
+	
 	
 	.box span
 	{
@@ -445,7 +447,16 @@
 		font-weight: 600;
 		font-size: 1.2em;
 		color: #FFF;
+
+		cursor: pointer;
 	}
+
+	
+	.box span:hover {
+		color: #FF0000; 
+	}
+
+
 
 
 	#banner {
