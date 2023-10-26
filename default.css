@@ -188,8 +188,19 @@
 		font-weight: 400;
 		font-size: 0.90em;
 		color: #FFF;
+
+    	transition: background 0.3s, color 0.3s;
 	}
-	
+
+	.button:hover {
+		background: #FF0000;
+		color: #000;
+	}
+
+
+
+
+
 	.button:before
 	{
 	}
@@ -434,7 +445,7 @@
 	}
 
 	
-	
+
 	.box span
 	{
 		margin: 0;
