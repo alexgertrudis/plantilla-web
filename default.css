@@ -431,3 +431,27 @@
 		font-size: 1.2em;
 		color: #FFF;
 	}
+
+
+	#banner {
+		position: relative;
+		overflow: hidden;
+		background-size: cover;
+	}
+	  
+	  #banner img {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		animation: moveRight 2s linear infinite;
+		-webkit-animation: moveRight 2s linear infinite;
+	}
+	
+	@keyframes moveRight {
+		from {
+		  left: 0;
+		}
+		to {
+		  left: 100%;
+		}
+	}
